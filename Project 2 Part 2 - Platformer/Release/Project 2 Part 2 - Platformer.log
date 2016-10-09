@@ -1,0 +1,80 @@
+﻿Build started 10/2/2015 1:53:13 AM.
+     1>Project "C:\Users\Administrator\Desktop\College\DigiPen\Fall 2015\CS 529 - Fundamentals of Game Dev\Project 2 Part 2 - Platformer\Project 2 Part 2 - Platformer\Project 2 Part 2 - Platformer.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\Alpha_Engine /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt GameStateMgr.c GameState_Platformer.c Main.c Math2D.c Matrix2D.c Vector2D.c
+         GameStateMgr.c
+         GameState_Platformer.c
+     1>GameState_Platformer.c(147): warning C4028: formal parameter 1 different from declaration
+     1>GameState_Platformer.c(147): warning C4028: formal parameter 2 different from declaration
+     1>GameState_Platformer.c(148): warning C4018: '>=': signed/unsigned mismatch
+     1>GameState_Platformer.c(166): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>GameState_Platformer.c(167): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>GameState_Platformer.c(170): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>GameState_Platformer.c(171): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>GameState_Platformer.c(174): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>GameState_Platformer.c(175): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>GameState_Platformer.c(178): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>GameState_Platformer.c(179): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>GameState_Platformer.c(182): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>GameState_Platformer.c(183): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>GameState_Platformer.c(186): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>GameState_Platformer.c(187): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>GameState_Platformer.c(190): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>GameState_Platformer.c(191): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>GameState_Platformer.c(194): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>GameState_Platformer.c(195): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>GameState_Platformer.c(253): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+     1>GameState_Platformer.c(274): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: see declaration of 'strtok'
+     1>GameState_Platformer.c(278): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: see declaration of 'strtok'
+     1>GameState_Platformer.c(313): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: see declaration of 'strtok'
+     1>GameState_Platformer.c(637): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+     1>GameState_Platformer.c(588): warning C4101: 'Pos': unreferenced local variable
+     1>GameState_Platformer.c(587): warning C4101: 'pInst': unreferenced local variable
+     1>GameState_Platformer.c(635): warning C4101: 't': unreferenced local variable
+     1>GameState_Platformer.c(675): warning C4101: 'j': unreferenced local variable
+     1>GameState_Platformer.c(831): warning C4101: 'strBuffer': unreferenced local variable
+     1>GameState_Platformer.c(829): warning C4101: 'cellFinalTransformation': unreferenced local variable
+     1>GameState_Platformer.c(828): warning C4101: 'j': unreferenced local variable
+     1>GameState_Platformer.c(829): warning C4101: 'cellTranslation': unreferenced local variable
+         Main.c
+         Math2D.c
+     1>Math2D.c(18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>Math2D.c(19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>Math2D.c(75): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>Math2D.c(76): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>Math2D.c(77): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>Math2D.c(151): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>Math2D.c(156): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>Math2D.c(167): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>Math2D.c(172): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+         Matrix2D.c
+     1>Matrix2D.c(521): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+         Vector2D.c
+     1>Vector2D.c(61): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>Vector2D.c(102): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>Vector2D.c(117): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+     1>Vector2D.c(124): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+     1>Vector2D.c(131): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+     1>Vector2D.c(166): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\College\DigiPen\Fall 2015\CS 529 - Fundamentals of Game Dev\Project 2 Part 2 - Platformer\Project 2 Part 2 - Platformer\Release\Project 2 Part 2 - Platformer.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\Lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Administrator\Desktop\College\DigiPen\Fall 2015\CS 529 - Fundamentals of Game Dev\Project 2 Part 2 - Platformer\Project 2 Part 2 - Platformer\Release\Project 2 Part 2 - Platformer.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\College\DigiPen\Fall 2015\CS 529 - Fundamentals of Game Dev\Project 2 Part 2 - Platformer\Project 2 Part 2 - Platformer\Release\Project 2 Part 2 - Platformer.lib" /MACHINE:X86 /SAFESEH Release\GameStateMgr.obj
+         Release\GameState_Platformer.obj
+         Release\Main.obj
+         Release\Math2D.obj
+         Release\Matrix2D.obj
+         Release\Vector2D.obj
+         Generating code
+     1>c:\users\administrator\desktop\college\digipen\fall 2015\cs 529 - fundamentals of game dev\project 2 part 2 - platformer\project 2 part 2 - platformer\gamestate_platformer.c(925): warning C4715: 'gameObjInstCreate': not all control paths return a value
+     1>c:\users\administrator\desktop\college\digipen\fall 2015\cs 529 - fundamentals of game dev\project 2 part 2 - platformer\project 2 part 2 - platformer\main.c(93): warning C4715: 'WinMain': not all control paths return a value
+         All 25 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         Finished generating code
+         Project 2 Part 2 - Platformer.vcxproj -> C:\Users\Administrator\Desktop\College\DigiPen\Fall 2015\CS 529 - Fundamentals of Game Dev\Project 2 Part 2 - Platformer\Project 2 Part 2 - Platformer\Release\Project 2 Part 2 - Platformer.exe
+     1>Done Building Project "C:\Users\Administrator\Desktop\College\DigiPen\Fall 2015\CS 529 - Fundamentals of Game Dev\Project 2 Part 2 - Platformer\Project 2 Part 2 - Platformer\Project 2 Part 2 - Platformer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.97
